@@ -28,11 +28,11 @@ public class ModBlocks {
     }
 
     private static RegistryKey<Item> getItemKey(String name) {
-        return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OGElytraBoosters.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ElytraRacing.MOD_ID, name));
     }
 
     private static RegistryKey<Block> getBlockKey(String name) {
-        return RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(OGElytraBoosters.MOD_ID, name));
+        return RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(ElytraRacing.MOD_ID, name));
     }
 
     public static final Block BOOSTER = register("booster", BoosterBlock::new, AbstractBlock.Settings.create().noCollision(),true);

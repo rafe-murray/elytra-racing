@@ -6,8 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-public class OGElytraBoosters implements ModInitializer {
-	public static final String MOD_ID = "og-elytra-boosters";
+public class ElytraRacing implements ModInitializer {
+	public static final String MOD_ID = "elytra-racing";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -20,6 +20,6 @@ public class OGElytraBoosters implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.initialize();
 		ModBlocks.initialize();
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Initialized Elytra Racing");
 	}
 }

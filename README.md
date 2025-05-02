@@ -1,4 +1,4 @@
-# OG Elytra Boosters
+# Elytra Racing
 The goal of this mod is to add features for use in elytra maps.
 
 ## Planned Features

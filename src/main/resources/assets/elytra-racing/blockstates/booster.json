@@ -1,0 +1,201 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "elytra-racing:block/booster_north" },
+      "when": { "AND": [ {"north": "false"}, {"facing": "up"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "y": 90 },
+      "when": { "AND" : [ {"east": "false"}, {"facing": "up"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "y": 180 },
+      "when": { "AND": [ {"south": "false"}, {"facing": "up"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "y": 270 },
+      "when": { "AND": [ {"west": "false"}, {"facing": "up"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north" },
+      "when": { "AND": [ {"north": "false"},{"up": "true"}, {"facing": "up"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "y": 90 },
+      "when": { "AND" : [ {"east": "false"}, {"up": "true"},{"facing": "up"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "y": 180 },
+      "when": { "AND": [ {"south": "false"},{"up": "true"}, {"facing": "up"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "y": 270 },
+      "when": { "AND": [ {"west": "false"},{"up": "true"}, {"facing": "up"}]}
+    },
+
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "x": 180 },
+      "when": { "AND": [ {"south": "false"}, {"facing": "down"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "y": 90, "x": 180},
+      "when": { "AND" : [ {"west": "false"}, {"facing": "down"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "y": 180, "x": 180 },
+      "when": { "AND": [ {"north": "false"}, {"facing": "down"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "y": 270, "x": 180 },
+      "when": { "AND": [ {"east": "false"}, {"facing": "down"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "x": 180 },
+      "when": { "AND": [ {"south": "false"},{"down": "true"}, {"facing": "down"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "y": 90, "x": 180},
+      "when": { "AND" : [ {"west": "false"},{"down": "true"}, {"facing": "down"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "y": 180, "x": 180 },
+      "when": { "AND": [ {"north": "false"},{"down": "true"}, {"facing": "down"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "y": 270, "x": 180 },
+      "when": { "AND": [ {"east": "false"},{"down": "true"}, {"facing": "down"}]}
+    },
+
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "x": 90},
+      "when": { "AND": [ {"down": "false"}, {"facing": "north"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_west", "y": 180, "x": 270},
+      "when": { "AND" : [ {"east": "false"}, {"facing": "north"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "y": 180, "x": 270 },
+      "when": { "AND": [ {"up": "false"}, {"facing": "north"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_west", "x": 90 },
+      "when": { "AND": [ {"west": "false"}, {"facing": "north"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "x": 90},
+      "when": { "AND": [ {"down": "false"},{"north": "true"}, {"facing": "north"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_west", "y": 180, "x": 270},
+      "when": { "AND" : [ {"east": "false"},{"north": "true"}, {"facing": "north"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "y": 180, "x": 270 },
+      "when": { "AND": [ {"up": "false"},{"north": "true"}, {"facing": "north"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_west", "x": 90 },
+      "when": { "AND": [ {"west": "false"},{"north": "true"}, {"facing": "north"}]}
+    },
+
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "x": 90, "y": 180},
+      "when": { "AND": [ {"down": "false"}, {"facing": "south"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_west", "y": 180, "x": 90},
+      "when": { "AND" : [ {"east": "false"}, {"facing": "south"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "x": 270 },
+      "when": { "AND": [ {"up": "false"}, {"facing": "south"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_west", "x": 270 },
+      "when": { "AND": [ {"west": "false"}, {"facing": "south"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "x": 90, "y": 180},
+      "when": { "AND": [ {"down": "false"},{"south": "true"}, {"facing": "south"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_west", "y": 180, "x": 90},
+      "when": { "AND" : [ {"east": "false"},{"south": "true"}, {"facing": "south"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "x": 270 },
+      "when": { "AND": [ {"up": "false"},{"south": "true"}, {"facing": "south"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_west", "x": 270 },
+      "when": { "AND": [ {"west": "false"},{"south": "true"}, {"facing": "south"}]}
+    },
+
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "x": 90, "y":  270},
+      "when": { "AND": [ {"down": "false"}, {"facing": "west"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_west", "y": 270, "x": 90},
+      "when": { "AND" : [ {"south": "false"}, {"facing": "west"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "y": 90, "x": 270 },
+      "when": { "AND": [ {"up": "false"}, {"facing": "west"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_west", "x": 270, "y": 90 },
+      "when": { "AND": [ {"north": "false"}, {"facing": "west"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "x": 90, "y":  270},
+      "when": { "AND": [ {"down": "false"},{"west": "true"}, {"facing": "west"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_west", "y": 270, "x": 90},
+      "when": { "AND" : [ {"south": "false"},{"west": "true"}, {"facing": "west"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "y": 90, "x": 270 },
+      "when": { "AND": [ {"up": "false"},{"west": "true"}, {"facing": "west"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_west", "x": 270, "y": 90 },
+      "when": { "AND": [ {"north": "false"},{"west": "true"}, {"facing": "west"}]}
+    },
+
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "x": 90, "y":  90},
+      "when": { "AND": [ {"down": "false"}, {"facing": "east"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_west", "y": 270, "x": 270},
+      "when": { "AND" : [ {"south": "false"}, {"facing": "east"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_north", "y": 270, "x": 270 },
+      "when": { "AND": [ {"up": "false"}, {"facing": "east"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_west", "x": 90, "y": 90 },
+      "when": { "AND": [ {"north": "false"}, {"facing": "east"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "x": 90, "y":  90},
+      "when": { "AND": [ {"down": "false"},{"east": "true"}, {"facing": "east"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_west", "y": 270, "x": 270},
+      "when": { "AND" : [ {"south": "false"},{"east": "true"}, {"facing": "east"} ] }
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_north", "y": 270, "x": 270 },
+      "when": { "AND": [ {"up": "false"},{"east": "true"}, {"facing": "east"}]}
+    },
+    {
+      "apply": { "model": "elytra-racing:block/booster_connected_west", "x": 90, "y": 90 },
+      "when": { "AND": [ {"north": "false"},{"east": "true"}, {"facing": "east"}]}
+    }
+  ]
+}

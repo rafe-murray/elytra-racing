@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "og-elytra-boosters",
+	"id": "elytra-racing",
 	"version": "${version}",
-	"name": "OG Elytra Boosters",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Elytra Racing",
+	"description": "Grab your elytra and race with your friends!",
 	"authors": [
-		"Me!"
+		"Rafe Murray"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/og-elytra-boosters/icon.png",
+	"icon": "assets/elytra-racing/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"ca.rafemurray.OGElytraBoosters"
+          "ca.rafemurray.ElytraRacing"
 		],
 		"client": [
-			"ca.rafemurray.OGElytraBoostersClient"
+			"ca.rafemurray.ElytraRacingClient"
 		]
 	},
 	"mixins": [
-		"og-elytra-boosters.mixins.json",
+		"elytra-racing.mixins.json",
 		{
-			"config": "og-elytra-boosters.client.mixins.json",
+			"config": "elytra-racing.client.mixins.json",
 			"environment": "client"
 		}
 	],

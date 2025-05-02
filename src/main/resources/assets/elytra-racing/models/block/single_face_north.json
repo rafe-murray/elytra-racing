@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "#face"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"color": 9,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#face"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#face"}
+			}
+		}
+	]
+}

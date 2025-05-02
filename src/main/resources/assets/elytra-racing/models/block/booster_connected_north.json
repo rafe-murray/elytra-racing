@@ -1,0 +1,6 @@
+{
+  "parent": "elytra-racing:block/single_face_north",
+  "textures": {
+    "face": "elytra-racing:block/booster_connected"
+  }
+}

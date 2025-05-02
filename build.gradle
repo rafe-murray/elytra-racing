@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"og-elytra-boosters" {
+		"elytra-racing" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

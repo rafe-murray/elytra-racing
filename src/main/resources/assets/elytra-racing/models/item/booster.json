@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+    "textures": {
+      "face": "elytra-racing:block/booster",
+	  "particle": "elytra-racing:block/booster"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 0],
+			"color": 5,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#face"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#face"}
+			}
+		},
+		{
+			"from": [0, 0, 16],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"color": 5,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#face"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#face"}
+			}
+		},
+		{
+			"from": [0.1, 0, 0],
+			"to": [0.1, 16, 16],
+			"color": 2,
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#face"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#face"}
+			}
+		},
+		{
+			"from": [16.1, 0, 0],
+			"to": [16.1, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 0]},
+			"color": 2,
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#face"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#face"}
+			}
+		}
+	]
+}
