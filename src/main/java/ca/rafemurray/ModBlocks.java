@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
 
+
 public class ModBlocks {
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings, boolean registerItem) {
         RegistryKey<Block> blockKey = getBlockKey(name);
@@ -36,11 +37,13 @@ public class ModBlocks {
     }
 
     public static final Block BOOSTER = register("booster", BoosterBlock::new, AbstractBlock.Settings.create().noCollision(),true);
+    public static final Block START = register("start_block", StartBlock::new, AbstractBlock.Settings.create(), true);
+    public static final Block FINISH = register("finish_block", FinishBlock::new, AbstractBlock.Settings.create(), true);
     public static void initialize() {
         ItemGroupEvents.modifyEntriesEvent(ModItems.CUSTOM_ITEM_GROUP_KEY).register((itemGroup) -> {
             itemGroup.add(ModBlocks.BOOSTER.asItem());
+            itemGroup.add(ModBlocks.START.asItem());
+            itemGroup.add(ModBlocks.FINISH.asItem());
         });
     }
-
-
 }

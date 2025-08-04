@@ -25,13 +25,13 @@ public class ModItems {
         return item;
     }
 
-    public static final Item TEST = register("test", Item::new, new Item.Settings());
+    public static final Item COURSE_MARKER = register("course_marker", CourseMarkerItem::new, new Item.Settings());
     public static void initialize() {
         Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
 
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY)
                 .register((itemGroup) -> {
-                    itemGroup.add(ModItems.TEST);
+                    itemGroup.add(ModItems.COURSE_MARKER);
                     itemGroup.add(Items.ELYTRA);
                 });
     }

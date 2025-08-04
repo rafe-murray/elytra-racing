@@ -20,6 +20,7 @@ public class ElytraRacing implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.initialize();
 		ModBlocks.initialize();
+		ModBlockEntities.initialize();
 		LOGGER.info("Initialized Elytra Racing");
 	}
 }
