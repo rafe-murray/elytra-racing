@@ -12,7 +12,6 @@ public class CourseMarkerItem extends Item {
         super(settings);
         this.course = new Course();
     }
-    //TODO: update the course fields for the start and finish blocks
 
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
