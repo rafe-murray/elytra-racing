@@ -47,6 +47,7 @@ object ModItems {
             output.accept(ModBlocks.BOOSTER)
             output.accept(ModBlocks.START)
             output.accept(ModBlocks.FINISH)
+            output.accept(ModBlocks.CHECKPOINT)
         }
         .build()
 

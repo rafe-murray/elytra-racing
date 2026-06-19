@@ -13,7 +13,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour
 import java.util.function.Function
 
 object ModBlocks {
-    private fun register(
+    fun register(
         name: String,
         blockFactory: Function<BlockBehaviour.Properties, Block>,
         settings: BlockBehaviour.Properties,
@@ -46,7 +46,6 @@ object ModBlocks {
         return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(ElytraRacing.MOD_ID, name))
     }
 
-    @JvmField
     val BOOSTER: Block = register(
         "booster",
         { properties: BlockBehaviour.Properties -> BoosterBlock(properties) },
@@ -54,7 +53,6 @@ object ModBlocks {
         true
     )
 
-    @JvmField
     val START: Block = register(
         "start_block",
         { settings: BlockBehaviour.Properties ->
@@ -62,10 +60,14 @@ object ModBlocks {
         }, BlockBehaviour.Properties.of(), true
     )
 
-    @JvmField
     val FINISH: Block = register(
         "finish_block",
         { settings: BlockBehaviour.Properties -> FinishBlock(settings) }, BlockBehaviour.Properties.of(), true
+    )
+
+    val CHECKPOINT: Block = register(
+        "checkpoint_block",
+        { settings: BlockBehaviour.Properties -> CheckpointBlock(settings) }, BlockBehaviour.Properties.of(), true
     )
 
     fun initialize() {}
