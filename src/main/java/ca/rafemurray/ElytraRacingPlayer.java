@@ -1,6 +1,8 @@
 package ca.rafemurray;
 
-public interface ElytraRacingPlayerEntity {
+import ca.rafemurray.course.Course;
+
+public interface ElytraRacingPlayer {
     boolean startCourse(Course course);
     void finishCourse();
     Course getCourse();
